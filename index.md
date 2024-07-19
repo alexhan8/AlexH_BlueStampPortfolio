@@ -28,6 +28,7 @@ For my final milestone with BlueStamp, I was able to successfully use my Raspber
 - how to set up and use a Raspberry Pi
 - how to debug problems on your own using the internet
 - how to do your research and use tools on the internet with your project
+
 I learned a lot from this program and am so happy with the foundation and skills that have been built for me to continue to work on a project on my own, which is something that seemed way too intimidating for me just three weeks ago. 
 
 # Second Milestone
