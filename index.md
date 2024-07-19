@@ -13,7 +13,7 @@ You should comment out all portions of your portfolio that you have not complete
 
 
 
-![Headstone Image](unnamed.jpg)
+![Headstone Image](Exquisite Kasi (1).png)
   
 # Final Milestone
 
