@@ -93,11 +93,12 @@ void loop()
 long microsecondsToCentimeters(long microseconds){   
   return microseconds / 29 / 2;   
 } 
+```
 
 
 ```python
 {
-#$ export DISPLAY=:0.0
+ #$ export DISPLAY=:0.0
 from ultralytics import YOLO
 import cv2
 import math 
@@ -169,14 +170,6 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 
-}
-```
-
-```json
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
 }
 ```
 
