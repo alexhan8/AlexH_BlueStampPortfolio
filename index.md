@@ -46,10 +46,9 @@ For my second milestone, I set up my Raspberry Pi and also coded a working text-
 For my first milestone, I was able to create a prototype of my project by wiring the Arduino with the buzzer, LED light, and ultrasonic sensor. How this project works is that the trigger pin in the ultrasonic sensor is programmed to repeatedly send out waves that hit objects and reflect into the sensor. The echo pin of the sensor is supposed to record how long it takes for the waves to be sent out and reflected back. Using this time, I was able to figure out the distance of the object. This was done because it takes 29 microseconds for a wave to travel 1 cm, so by dividing the total duration by 29, and then by 2 to account for the wave having to travel to the object and back, I can figure out exactly how far the object is in cm. My buzzer and LED will light up when the object is less than 50 cm away. If the object is closer, the distance will be smaller the LED and buzzer will turn on and off more frequently. Initially, the circuit diagram I was following was also using a switch and a motor, but because I didn't have access to either of those things I had to work my way around that by not including them in my wiring. Another problem I had was that the circuit diagram initially had the LED light and buzzer attached to the 5 pin on the Arduino. However, that caused my LED light to barely light up because the buzzer would take up most of the power. I fixed this by simply attaching my LED to the 6 pin instead and creating a new variable for the new pin to represent the LED in my code so that the LED and buzzer were not fighting for the same power. Another problem I ran into was that the circuit diagram I was using was for the Arduino Pro mini, but I was using the Arduino Micro. I had to figure out how to wire my project in a way that would work for my Arduino micro. Because this is my first time working with electronics in this way, I am happy with my progress and how much I have learned in such a short time. For my next milestone, I hope to add a camera to my project so I can get more detailed information about the objects my project is detecting rather than just distance. 
 
 # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+![Headstone Image](unnamed.jpg)
 
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
 const int pingTrigPin = 12; //Trigger connected to PIN 7   
@@ -174,8 +173,6 @@ cv2.destroyAllWindows()
 
 
 # Bill of Materials
-Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
-Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
