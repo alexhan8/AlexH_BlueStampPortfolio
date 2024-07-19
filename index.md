@@ -172,6 +172,14 @@ cv2.destroyAllWindows()
 }
 ```
 
+```json
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
+
 
 
 # Bill of Materials
