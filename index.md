@@ -102,7 +102,7 @@ long microsecondsToCentimeters(long microseconds){
 from ultralytics import YOLO
 import cv2
 import math 
-# start webcam (because I used my own webcam I was able to use opencv2, if you are using picam you should use picam2)
+# start webcam (shouldn't set up like this if using picam I used my own webcam) 
 cap = cv2.VideoCapture(0)
 cap.set(3, 640)
 cap.set(4, 480)
