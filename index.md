@@ -35,11 +35,8 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
+For my second milestone, I set up my raspberry pi and also coded a working text to speech program and figured out how to source and use an object detection model on google colab. Object detection models work through machine learning, where the computer is shown different objects over and over again and is basically trained to recognize During this time I ran into some difficulties. For instance, google colab struggles a bit when accessing your webcam so I was only able to code the object detection in a way so that it would process a singular image I uploaded to it. However, I hope that now that I know how to use object detection on singular images I can use the same logic for when it is accessing my picam. Prior to my second milestone, I didn't feel comfortable working in the terminal to install things or acess other modules. Now I can say I feel a lot more confident on how to install and use modules. What I also enjoy about BlueStamp is that the instructors encourage you to do your own research while building your project rather than handing everything to you and allowing you to follow a step-by-step guide. I feel much more confident doing my own research and developing my own skills even when this program is over. For my next milestone, I plan on finally using my speaker and webcam so I can use object detection on the real world and speak out loud everything my project sees. 
+
 
 # First Milestone
 
