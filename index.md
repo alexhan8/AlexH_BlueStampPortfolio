@@ -1,5 +1,5 @@
 # Third Eye for the Blind
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+My project the Third Eye for the Blind helps those with visual impairments get a sense of their surroundings by detecting nearby obstacles. The first part of this project uses ultrasonic sensors that send out waves that are able to determine how far objects are, alerting the user with a buzzer sound. The second part of this project uses a camera that trained using machine learning to recognize what different objects are and is able to announce the names of nearby objects using a speaker.  
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
