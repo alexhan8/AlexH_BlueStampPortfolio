@@ -1,4 +1,4 @@
-# Third Eye for the Blind
+# Gesture Controlled Robot 
 My project the Third Eye for the Blind helps those with visual impairments get a sense of their surroundings by detecting nearby obstacles. The first part of this project uses ultrasonic sensors that send out waves to able to determine how far objects are, alerting the user with a buzzer sound. The second part of this project uses a camera that is trained using machine learning to recognize what different objects are and is able to announce the names of nearby objects using a speaker.  
 
 
